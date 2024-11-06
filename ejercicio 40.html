@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Prueba de formulario</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+<form action="registrardatos.php" method="post">
+  Nombre:
+  <input type="text" name="nombre" size="30"><br>
+  Mail:
+  <input type="text" name="mail" size="30"><br>
+  <select name="pais">
+    <option value="1" selected>seleccione pais</option>
+    <option value="1">Argentina</option>
+    <option value="2">España</option>
+    <option value="3">México</option>
+    <option value="4">Guatemala</option>
+    <option value="5">Honduras</option>
+    <option value="7">El Salvador</option>
+    <option value="8">Venezuela</option>
+    <option value="9">Colombia</option>
+    <option value="10">Cuba</option>
+    <option value="11">Bolivia</option>
+    <option value="13">Perú</option>
+    <option value="14">Ecuador</option>
+    <option value="15">Paraguay</option>
+    <option value="16">Uruguay</option>
+    <option value="17">Chile</option>
+  </select>
+  <br>
+  Como calificaría a este sitio:
+  <select name="valoracion">
+    <option value="malo">Malo</option>
+    <option value="regular">Regular</option>
+    <option value="bueno" selected>Bueno</option>
+    <option value="muy bueno">Muy Bueno</option>
+    <option value="excelente">Excelente</option>
+  </select>
+  <br>
+  <textarea name="comentarios" rows="5" cols="40">Ingrese aqui  sus comentarios</textarea><br>
+  <input type="submit" value="Enviar">
+</form>
+</body>
+</html>

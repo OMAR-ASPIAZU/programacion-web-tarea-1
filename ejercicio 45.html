@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Prueba de formulario</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+<form action="mailto:pizzasya@gmail.com?subject=pedido de pizza" method="post" enctype="text/plain">
+  <fieldset>
+  <legend>Seleccione tipo y cantidad de pizzas</legend>
+    Pizza:
+    <select name="pizza1">
+      <option value="Muzzarella">Muzzarella</option>
+      <option value="Jamon y Queso">Jamon y Queso</option>
+      <option value="Napolitana">Napolitana</option>
+    </select>
+    Cantidad:
+    <select name="cantidad1">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <br>
+    Pizza:
+    <select name="pizza2">
+      <option value="Muzzarella">Muzzarella</option>
+      <option value="Jamon y Queso">Jamon y Queso</option>
+      <option value="Napolitana">Napolitana</option>
+    </select>
+    Cantidad:
+    <select name="cantidad2">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <br>
+    Pizza:
+    <select name="pizza3">
+      <option value="Muzzarella">Muzzarella</option>
+      <option value="Jamon y Queso">Jamon y Queso</option>
+      <option value="Napolitana">Napolitana</option>
+    </select>
+    Cantidad:
+    <select name="cantidad3">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+  </fieldset>
+  <fieldset>
+  <legend>Datos</legend>
+    Nombre:
+    <input type="text" name="nombre" size="30"><br>
+    Dirección:
+    <input type="text" name="direccion" size="25"><br>
+    Teléfono:
+    <input type="text" name="telefono" size="10"><br>
+  </fieldset>
+  <input type="submit" value="Enviar">
+</form>
+</body>
+</html>
